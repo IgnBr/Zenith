@@ -20,7 +20,7 @@ public class Water : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(other.gameObject); //TODO: this will need to call the appropriate method on the Player GameObject that will kill them, instead of Destroying
+            other.gameObject.GetComponent<Player>().Die();
             Debug.Log("Water hit Player");
         }
     }
