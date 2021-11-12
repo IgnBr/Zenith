@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChopTree : MonoBehaviour
+public class Melee : MonoBehaviour
 {
     public int damage = 25;
 
@@ -11,6 +11,8 @@ public class ChopTree : MonoBehaviour
     public float hitRange = 2.5f;
 
     private Tree Tree;
+
+    private EnemyAI enemyAI;
 
     void Update()
     {
@@ -26,6 +28,12 @@ public class ChopTree : MonoBehaviour
                     Tree = hitInfo.collider.GetComponentInParent<Tree>();
                     DamageTree();
                 }
+
+                if (hitInfo.collider.tag == "Enemy")
+                {
+                    enemyAI = hitInfo.collider.GetComponent<EnemyAI>();
+                    DamageEnemy(25);
+                }
             }
         }
 
@@ -35,5 +43,10 @@ public class ChopTree : MonoBehaviour
     void DamageTree()
     {
         Tree.health -= damage;
+    }
+
+    public void DamageEnemy(int damage)
+    {
+        enemyAI.health -= damage;
     }
 }

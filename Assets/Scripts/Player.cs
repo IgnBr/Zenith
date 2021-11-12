@@ -26,14 +26,19 @@ public class Player : MonoBehaviour
         }
 
 
-        if (thirst >= maxThirst)
+        if (health<=0 ||thirst >= maxThirst || hunger >= maxHunger)
+        {
             Die();
-        if (hunger >= maxHunger)
-            Die();
+        }
     }
 
     public void Die()
     {
-        transform.position = new Vector3(450, 110, 549);
+        transform.position = new Vector3(450, 120, 549);
+    }
+
+    public void AttackPlayer(float damage)
+    {
+        health -= damage;
     }
 }
