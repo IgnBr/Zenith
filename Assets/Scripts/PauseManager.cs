@@ -48,6 +48,7 @@ public class PauseManager : MonoBehaviour
     public void quitGame()
     {
         //TODO: Save Logic someday
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
 }
