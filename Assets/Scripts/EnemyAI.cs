@@ -8,6 +8,8 @@ public class EnemyAI : MonoBehaviour
 
     private NavMeshAgent agent;
 
+    private Animator animator;
+
     private bool chasing = false;
 
 
@@ -47,9 +49,26 @@ public class EnemyAI : MonoBehaviour
         decideTimer = Random.Range(decideTimerMin, decideTimerMax);
 
         // Attcking
+        animator = GetComponent<Animator>();
+        attackTimerStart = getAttackTime(animator);
         attackTimer = attackTimerStart;
         playerTransformDistance = GameObject.FindGameObjectWithTag("Player").transform;
         playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+    }
+
+    private float getAttackTime(Animator animator)
+    {
+        AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
+        foreach (AnimationClip clip in clips)
+        {
+            switch (clip.name)
+            {
+                case "Attack01":
+                    return clip.length;
+            }
+        }
+
+        return 2f;
     }
 
     void Update()
@@ -57,10 +76,12 @@ public class EnemyAI : MonoBehaviour
         // Attacking
         distanceToPlayer = Vector3.Distance(transform.position, playerTransformDistance.position);
 
-        if (distanceToPlayer <= distanceToAttack)
-        {
-            isAttacking = true;
-        }
+        isAttacking = distanceToPlayer <= distanceToAttack;
+
+        animator.SetFloat("walking", agent.velocity.magnitude);
+
+
+
 
         if (isAttacking)
         {
@@ -71,9 +92,13 @@ public class EnemyAI : MonoBehaviour
 
         if(attackTimer <= 0)
         {
+            animator.SetTrigger("attack");
+            animator.ResetTrigger("attack");
             AttackPlayer();
             attackTimer = attackTimerStart;
         }
+
+
 
         viewRay = new Ray(Vector3.forward, transform.forward);
 
@@ -101,6 +126,7 @@ public class EnemyAI : MonoBehaviour
                 }
             }
         }
+
 
         if (chasing)
         {

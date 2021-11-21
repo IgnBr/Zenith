@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     public void Die()
     {
         transform.position = new Vector3(450, 120, 549);
+        health = 100;
     }
 
     public void AttackPlayer(float damage)
