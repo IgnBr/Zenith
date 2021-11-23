@@ -8,6 +8,7 @@ TagManager:
   - tree
   - Enemy
   - Global
+  - Animal
   layers:
   - Default
   - TransparentFX

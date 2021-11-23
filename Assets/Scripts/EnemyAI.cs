@@ -17,7 +17,7 @@ public class EnemyAI : MonoBehaviour
 
     public Transform player;
 
-    public float viewRange = 20f;
+    public float viewRange = 15f;
 
     // Wandering
 
@@ -34,7 +34,7 @@ public class EnemyAI : MonoBehaviour
     public float distanceToPlayer;
     public Transform playerTransformDistance;
 
-    public float distanceToAttack = 2f;
+    public float distanceToAttack = 5f;
     public bool isAttacking = false;
 
     public Ray viewRay;
@@ -52,8 +52,8 @@ public class EnemyAI : MonoBehaviour
         animator = GetComponent<Animator>();
         attackTimerStart = getAttackTime(animator);
         attackTimer = attackTimerStart;
-        playerTransformDistance = GameObject.FindGameObjectWithTag("Player").transform;
         playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        playerTransformDistance = playerScript.transform;
     }
 
     private float getAttackTime(Animator animator)
@@ -81,8 +81,6 @@ public class EnemyAI : MonoBehaviour
         animator.SetFloat("walking", agent.velocity.magnitude);
 
 
-
-
         if (isAttacking)
         {
             attackTimer -= Time.deltaTime;
@@ -90,17 +88,24 @@ public class EnemyAI : MonoBehaviour
             agent.SetDestination(transform.position);
         }
 
+        if(distanceToPlayer > viewRange)
+        {
+            chasing = false;
+        }
+
         if(attackTimer <= 0)
         {
             animator.SetTrigger("attack");
-            animator.ResetTrigger("attack");
+
             AttackPlayer();
             attackTimer = attackTimerStart;
         }
 
 
-
-        viewRay = new Ray(Vector3.forward, transform.forward);
+        Vector3 vector3 = transform.position;
+        vector3.y += 1;
+        viewRay = new Ray(vector3, transform.forward);
+        Debug.DrawRay(vector3, transform.forward, Color.green);
 
         decideTimer -= Time.deltaTime;
 
@@ -139,9 +144,14 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    public void AttackPlayer()
+    private void AttackPlayer()
     {
         playerScript.AttackPlayer(20);
+    }
+
+    public void AttackMob(int damage)
+    {
+        health -= damage;
     }
 
     private void OnTriggerEnter(Collider other)
