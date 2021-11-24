@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8113311c6242d604ebf7072c19640bbc
+  - enabled: 1
+    path: Assets/Scenes/KasparasTestScene.unity
+    guid: ab831de925444f642a644cdd779ebb59
+  - enabled: 1
+    path: Assets/Scenes/KasparasTestScene.unity
+    guid: bbb99140fc191b842bdddd556ff11312
   m_configObjects: {}
