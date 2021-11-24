@@ -72,3 +72,4 @@ crashlytics-build.properties
 Unity_lic.alf
 *.log
 *.txt
+.DS_Store

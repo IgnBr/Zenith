@@ -62,6 +62,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -87,6 +88,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &2724115481486590906
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -148,6 +150,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7232939143057212312}
+          m_TargetAssemblyTypeName: 
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -163,6 +166,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 7232939143057212312}
+          m_TargetAssemblyTypeName: 
           m_MethodName: SetActive
           m_Mode: 6
           m_Arguments:
@@ -201,32 +205,23 @@ MonoBehaviour:
         m_Type: DevionGames.InventorySystem.HasItem
         m_Enabled: 1
         requiredItems:
-        - item: {fileID: -4474190543486091594, guid: 1ae57b994efcab048a1bb130d4e11d83,
-            type: 2}
+        - item: {fileID: -4474190543486091594, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
           category: {fileID: 0}
           boolValue: 0
           stringValue: Tools
-          intValue: 0
-        - item: {fileID: 6305893422732665131, guid: e1f045c49e197e3439b99da9edbc5ba3,
-            type: 2}
-          category: {fileID: 0}
-          boolValue: 0
-          stringValue: Skills
           intValue: 0
     00000001:
       type: {class: RemoveVisualItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
       data:
         m_Type: DevionGames.InventorySystem.RemoveVisualItem
         m_Enabled: 1
-        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83,
-          type: 2}
+        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
     00000002:
       type: {class: AddVisualItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
       data:
         m_Type: DevionGames.InventorySystem.AddVisualItem
         m_Enabled: 1
-        m_Item: {fileID: -4474190543486091594, guid: 1ae57b994efcab048a1bb130d4e11d83,
-          type: 2}
+        m_Item: {fileID: -4474190543486091594, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
     00000003:
       type: {class: SetEnabled, ns: DevionGames, asm: DevionGames.Triggers}
       data:
@@ -270,8 +265,7 @@ MonoBehaviour:
       data:
         m_Type: DevionGames.InventorySystem.RemoveVisualItem
         m_Enabled: 1
-        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83,
-          type: 2}
+        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
     00000009:
       type: {class: UpdateEquipment, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
       data:
@@ -282,8 +276,7 @@ MonoBehaviour:
       data:
         m_Type: DevionGames.InventorySystem.CheckSkill
         m_Enabled: 1
-        m_Skill: {fileID: 6305893422732665131, guid: e1f045c49e197e3439b99da9edbc5ba3,
-          type: 2}
+        m_Skill: {fileID: 6305893422732665131, guid: e1f045c49e197e3439b99da9edbc5ba3, type: 2}
         m_SuccessNotification:
           title: 
           text: 
@@ -341,8 +334,7 @@ MonoBehaviour:
         m_Type: DevionGames.Instantiate
         m_Enabled: 1
         m_Target: 0
-        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d,
-          type: 3}
+        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d, type: 3}
         m_BoneName: 
         m_Offset: {x: 0, y: 1, z: 0}
         m_IgnorePlayerCollision: 1
@@ -459,6 +451,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -483,3 +476,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

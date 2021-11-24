@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 1169240631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.156078, y: 0.017, z: 6.8329077}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -45,7 +45,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169240631}
-  m_Mesh: {fileID: 4300004, guid: 36fab8a650f78e34a8a757675f3acd32, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 30396a8d74e0ac3468241d49ef28b3a5, type: 3}
 --- !u!23 &1169240633
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61,6 +61,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -85,6 +86,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &1169240632
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -98,7 +100,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300006, guid: 36fab8a650f78e34a8a757675f3acd32, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 30396a8d74e0ac3468241d49ef28b3a5, type: 3}
 --- !u!114 &5313464929911935473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delegates: []
-  useDistance: 1.5
+  useDistance: 2.5
   triggerType: 43
   key: 102
   actionTemplate: {fileID: 0}
@@ -169,23 +171,16 @@ MonoBehaviour:
         m_Type: DevionGames.InventorySystem.HasItem
         m_Enabled: 1
         requiredItems:
-        - item: {fileID: 2409076057030828310, guid: 1ae57b994efcab048a1bb130d4e11d83,
-            type: 2}
+        - item: {fileID: 2409076057030828310, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
           category: {fileID: 0}
           boolValue: 0
           stringValue: Tools
-          intValue: 0
-        - item: {fileID: -7886543208416861863, guid: e1f045c49e197e3439b99da9edbc5ba3,
-            type: 2}
-          category: {fileID: 0}
-          boolValue: 0
-          stringValue: Skills
           intValue: 0
     00000001:
       type: {class: CompareNumberNotify, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
       data:
         m_Type: DevionGames.InventorySystem.CompareNumberNotify
-        m_Enabled: 1
+        m_Enabled: 0
         m_Target: 1
         m_ComponentName: StatsHandler
         m_MethodName: GetStatValue
@@ -214,15 +209,13 @@ MonoBehaviour:
       data:
         m_Type: DevionGames.InventorySystem.RemoveVisualItem
         m_Enabled: 1
-        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83,
-          type: 2}
+        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
     00000003:
       type: {class: AddVisualItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
       data:
         m_Type: DevionGames.InventorySystem.AddVisualItem
         m_Enabled: 1
-        m_Item: {fileID: 2409076057030828310, guid: 1ae57b994efcab048a1bb130d4e11d83,
-          type: 2}
+        m_Item: {fileID: 2409076057030828310, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
     00000004:
       type: {class: SetEnabled, ns: DevionGames, asm: DevionGames.Triggers}
       data:
@@ -270,9 +263,8 @@ MonoBehaviour:
       type: {class: CheckSkill, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
       data:
         m_Type: DevionGames.InventorySystem.CheckSkill
-        m_Enabled: 1
-        m_Skill: {fileID: -7886543208416861863, guid: e1f045c49e197e3439b99da9edbc5ba3,
-          type: 2}
+        m_Enabled: 0
+        m_Skill: {fileID: -7886543208416861863, guid: e1f045c49e197e3439b99da9edbc5ba3, type: 2}
         m_SuccessNotification:
           title: 
           text: 
@@ -330,8 +322,7 @@ MonoBehaviour:
         m_Type: 
         m_Enabled: 1
         m_Target: 0
-        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d,
-          type: 3}
+        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d, type: 3}
         m_BoneName: 
         m_Offset: {x: 0, y: 0.2, z: 0}
         m_IgnorePlayerCollision: 1
