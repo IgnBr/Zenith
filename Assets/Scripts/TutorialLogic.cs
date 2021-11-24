@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class TutorialLogic : MonoBehaviour
 {
     public bool hasWalked;
-    public bool hasRan;
+    public bool hasRolled;
     public bool hasJumped;
     public bool wasNearWater;
     public bool hitTree;
     public bool hasOpenedInv;
     public bool hasFought;
     public bool hasEaten;
-    public bool hasDrank;
+    //public bool hasDrank;
 
     public Text nextObjective;
     public Text alternativeObjective;
@@ -22,7 +22,7 @@ public class TutorialLogic : MonoBehaviour
     //public GameObject water;
 
     private float prevHunger;
-    private float prevThirst;
+   // private float prevThirst;
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +36,7 @@ public class TutorialLogic : MonoBehaviour
     {
         UpdateText();
         UpdateThingsDone();
-        if(hasWalked && hasRan && hasJumped && wasNearWater && hitTree && hasOpenedInv && hasFought && hasEaten && hasDrank)
+        if(hasWalked && hasRolled && hasJumped && wasNearWater && hitTree && hasOpenedInv && hasFought && hasEaten)
         {
             Destroy(this.gameObject);
         }
@@ -52,9 +52,9 @@ public class TutorialLogic : MonoBehaviour
         {
             nextObjective.text = "Use Space to jump!";
         }
-        else if (!hasRan)
+        else if (!hasRolled)
         {
-            nextObjective.text = "Use Left Shift to run!";
+            nextObjective.text = "Use Left Alt to roll!";
         }
         //else if(!hitTree) //Need to find a way to detect when a player has hit sth
         //{
@@ -62,7 +62,7 @@ public class TutorialLogic : MonoBehaviour
         //}
         else if(!hasOpenedInv)
         {
-            nextObjective.text = "Use <key> to open your inventory!";
+            nextObjective.text = "Use E to open your inventory!";
         }
         //else if(!hasFought)
         //{
@@ -73,13 +73,13 @@ public class TutorialLogic : MonoBehaviour
             nextObjective.text = "";
         }
         
-        if(player.hunger > 60 && !hasEaten)
+        if(player.hunger > 1600 && !hasEaten)
         {
             alternativeObjective.text = "You're getting hungry! Better find something to eat.";
         }
-        if(player.thirst > 60 && !hasDrank)
+        if(hasEaten)
         {
-            alternativeObjective.text = "You're getting thirsty! You really should find a drink.";
+            alternativeObjective.text = "";
         }
         if(player.transform.position.y <= 97f && !wasNearWater)
         {
@@ -101,9 +101,9 @@ public class TutorialLogic : MonoBehaviour
         {
             hasJumped = true;
         }
-        if(Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.W) && !hasRan)
+        if(Input.GetKey(KeyCode.LeftAlt) && Input.GetKey(KeyCode.W) && !hasRolled)
         {
-            hasRan = true;
+            hasRolled = true;
         }
         if(Input.GetKeyDown(KeyCode.E) && !hasOpenedInv)
         {
@@ -120,14 +120,6 @@ public class TutorialLogic : MonoBehaviour
         if(!hasEaten)
         {
             prevHunger = player.hunger;
-        }
-        if(prevThirst > player.thirst && !hasDrank)
-        {
-            hasDrank = true;
-        }
-        if(!hasDrank)
-        {
-            prevThirst = player.thirst;
         }
 
         if(player.transform.position.y <= 97f && !wasNearWater)

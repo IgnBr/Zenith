@@ -23,7 +23,7 @@ namespace DevionGames.InventorySystem
         [HideInInspector]
 		public UnityEvent onChange;
 
-
+        private GameObject player;
 
         private bool m_Initialized;
 

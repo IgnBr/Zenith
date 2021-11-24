@@ -1,12 +1,14 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class BuildingController : MonoBehaviour
 {
     [SerializeField]
-    private GameObject placeableObject;
+    private List<GameObject> placeableObject;
+    private int selectedObject;
 
     [SerializeField]
-    private KeyCode hotkey = KeyCode.F;
+    private KeyCode hotkey = KeyCode.Y;
 
     [SerializeField]
     private GameObject crosshair;
@@ -16,6 +18,10 @@ public class BuildingController : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            selectedObject = selectedObject == 0 ? 1 : 0;
+        }
         HandleHotkey();
 
         if (currentPlaceableObject != null)
@@ -28,8 +34,14 @@ public class BuildingController : MonoBehaviour
 
     private void RotateFromMouseWheel()
     {
-        mouseWheelRotation += Input.mouseScrollDelta.y;
-        currentPlaceableObject.transform.Rotate(Vector3.up, mouseWheelRotation * 2f);
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            mouseWheelRotation += 45;
+            
+        }
+        currentPlaceableObject.transform.Rotate(Vector3.up, mouseWheelRotation);
+        //mouseWheelRotation += Input.mouseScrollDelta.y;
+        //currentPlaceableObject.transform.Rotate(Vector3.up, mouseWheelRotation * 2f);
     }
 
     private void ReleaseIfClicked()
@@ -59,7 +71,7 @@ public class BuildingController : MonoBehaviour
         {
             if (currentPlaceableObject == null)
             {
-                currentPlaceableObject = Instantiate(placeableObject);
+                currentPlaceableObject = Instantiate(placeableObject[selectedObject]);
             }
             else
             {

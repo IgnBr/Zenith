@@ -1312,6 +1312,7 @@ MonoBehaviour:
   - {fileID: 3253036230510403830}
   - {fileID: -7220855601628582702}
   - {fileID: 757395598172549354}
+  - {fileID: 5570973949376664077}
   currencies:
   - {fileID: -2811142919616601772}
   - {fileID: -6442420119529586086}
@@ -2227,6 +2228,46 @@ MonoBehaviour:
           delay: 2
           duration: 2
           ignoreTimeScale: 1
+--- !u!114 &5570973949376664077
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a78acd5557204d499bcf3420fd4ee78, type: 3}
+  m_Name: New Item
+  m_EditorClassIdentifier: 
+  m_Id: 430c9588-e2ec-4fa0-a039-c877187a665c
+  m_ItemName: New Item
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 0}
+  m_Prefab: {fileID: 0}
+  m_Description: 
+  m_Category: {fileID: -6294223960729143046}
+  m_IsSellable: 1
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: -2811142919616601772}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: -2811142919616601772}
+  m_Stack: 1
+  m_MaxStack: 1
+  m_CanDestroy: 1
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_CraftingRecipe: {fileID: 0}
+  m_EnchantingRecipe: {fileID: 0}
+  properties: []
+  m_UseCategoryCooldown: 1
+  m_Cooldown: 1
+  actions: []
+  references:
+    version: 1
 --- !u!114 &5658350685615726283
 MonoBehaviour:
   m_ObjectHideFlags: 1

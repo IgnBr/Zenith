@@ -14,6 +14,8 @@ public class Animals : MonoBehaviour
     public float decideTimerMax = 15f;
     public float randomUnityCircleRadius = 10f;
 
+    public GameObject bread;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +45,9 @@ public class Animals : MonoBehaviour
 
         if (health <= 0)
         {
+            Vector3 newpos = transform.position;
+            newpos.y += 3;
+            Instantiate(bread, newpos, Quaternion.identity);
             Destroy(gameObject);
         }
     }

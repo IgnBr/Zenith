@@ -828,6 +828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &18815772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,6 +1805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &42427188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +1916,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5919396264613246822, guid: bda7da24542c025428e2aa9f181034b7, type: 3}
   m_PrefabInstance: {fileID: 42459347}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &45139747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588230, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913868008694588282, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+      propertyPath: m_Name
+      value: PlayerUI
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
 --- !u!1001 &45174341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1995,6 +2094,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
+--- !u!20 &46460674 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 1068717984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &46796943
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,7 +4224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   placeableObject: {fileID: 5226888983408899478, guid: b4e05b86688c5493db1dc78b2b6f3839, type: 3}
   hotkey: 102
-  crosshair: {fileID: 866307704}
+  crosshair: {fileID: 1009845474}
 --- !u!4 &103023145
 Transform:
   m_ObjectHideFlags: 0
@@ -4132,7 +4237,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &104053443
 GameObject:
@@ -4535,6 +4640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &117899341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4617,6 +4723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &117924454
 GameObject:
   m_ObjectHideFlags: 0
@@ -4788,6 +4895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &120468697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5103,6 +5211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &122375065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5185,6 +5294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &122523970
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,6 +6405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &149444327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6382,6 +6493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &152144952
 GameObject:
   m_ObjectHideFlags: 0
@@ -6509,6 +6621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &154002629
 GameObject:
   m_ObjectHideFlags: 0
@@ -6857,6 +6970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &165560882
 GameObject:
   m_ObjectHideFlags: 0
@@ -6982,6 +7096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &167992389
 GameObject:
   m_ObjectHideFlags: 0
@@ -8459,6 +8574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &202869883
 GameObject:
   m_ObjectHideFlags: 0
@@ -8854,6 +8970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &210157800
 GameObject:
   m_ObjectHideFlags: 0
@@ -9116,6 +9233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &217580362
 GameObject:
   m_ObjectHideFlags: 0
@@ -10000,6 +10118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &233800682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10081,6 +10200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &233860401
 GameObject:
   m_ObjectHideFlags: 0
@@ -10385,6 +10505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &238086634
 GameObject:
   m_ObjectHideFlags: 0
@@ -10555,6 +10676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &239616207
 GameObject:
   m_ObjectHideFlags: 0
@@ -11269,6 +11391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &263296337
 GameObject:
   m_ObjectHideFlags: 0
@@ -11313,6 +11436,63 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.034988
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &264036557
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6533514496831458436, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_Name
+      value: PauseManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 837.6479
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 450.31186
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -238.62439
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533514496831458438, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b33405b5621010e40a16c618f47e2b32, type: 3}
 --- !u!1 &265497004
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,6 +12004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &273600210
 GameObject:
   m_ObjectHideFlags: 0
@@ -12358,6 +12539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &295148457
 GameObject:
   m_ObjectHideFlags: 0
@@ -12633,6 +12815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &300360733
 GameObject:
   m_ObjectHideFlags: 0
@@ -12847,6 +13030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &303150093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13096,6 +13280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &307336975
 GameObject:
   m_ObjectHideFlags: 0
@@ -13932,6 +14117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &336195253
 GameObject:
   m_ObjectHideFlags: 0
@@ -14352,7 +14538,7 @@ Transform:
   m_Children:
   - {fileID: 973220449}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &345804148
 GameObject:
@@ -14750,6 +14936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &353499681
 GameObject:
   m_ObjectHideFlags: 0
@@ -15097,6 +15284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &362030534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15180,6 +15368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &366183772
 GameObject:
   m_ObjectHideFlags: 0
@@ -15964,6 +16153,10 @@ MonoBehaviour:
   health: 100
   thirst: 0
   hunger: 0
+  damage: 25
+  FPSCamera: {fileID: 46460674}
+  hitRange: 2.5
+  attackTimer: 2
 --- !u!1 &388730655
 GameObject:
   m_ObjectHideFlags: 0
@@ -16779,6 +16972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &409289501
 GameObject:
   m_ObjectHideFlags: 0
@@ -17283,6 +17477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &415688814
 GameObject:
   m_ObjectHideFlags: 0
@@ -18386,6 +18581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &443626875
 GameObject:
   m_ObjectHideFlags: 0
@@ -19866,6 +20062,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000012795208846, guid: e318266f60803d548a4b409b52b39d8d, type: 3}
   m_PrefabInstance: {fileID: 485917030}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &487899388
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5646973572744340649, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_Name
+      value: TutorialThings
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 540
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973572744340651, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5646973574021433542, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fd22d03a65ebe34b98a4fe95cedaf26, type: 3}
 --- !u!1 &491233711
 GameObject:
   m_ObjectHideFlags: 0
@@ -20218,6 +20475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &496430432
 GameObject:
   m_ObjectHideFlags: 0
@@ -22112,6 +22370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &539756811
 GameObject:
   m_ObjectHideFlags: 0
@@ -22601,6 +22860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &552692786
 GameObject:
   m_ObjectHideFlags: 0
@@ -23262,6 +23522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &567254152
 GameObject:
   m_ObjectHideFlags: 0
@@ -23709,6 +23970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &575789610
 GameObject:
   m_ObjectHideFlags: 0
@@ -24551,6 +24813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &595403173
 GameObject:
   m_ObjectHideFlags: 0
@@ -24769,6 +25032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &601185266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25373,6 +25637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &614853432
 GameObject:
   m_ObjectHideFlags: 0
@@ -25592,6 +25857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &617976139
 GameObject:
   m_ObjectHideFlags: 0
@@ -26027,6 +26293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &636239713
 GameObject:
   m_ObjectHideFlags: 0
@@ -27295,6 +27562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &667223882
 GameObject:
   m_ObjectHideFlags: 0
@@ -28106,6 +28374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &692346829
 GameObject:
   m_ObjectHideFlags: 0
@@ -28847,6 +29116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &712152023
 GameObject:
   m_ObjectHideFlags: 0
@@ -30014,6 +30284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &735132704
 GameObject:
   m_ObjectHideFlags: 0
@@ -30997,6 +31268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &759028222
 GameObject:
   m_ObjectHideFlags: 0
@@ -31210,6 +31482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &763055471
 GameObject:
   m_ObjectHideFlags: 0
@@ -31831,6 +32104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &783588780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31912,6 +32186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &784328943
 GameObject:
   m_ObjectHideFlags: 0
@@ -32125,6 +32400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &792628655
 GameObject:
   m_ObjectHideFlags: 0
@@ -32250,6 +32526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &793519116
 GameObject:
   m_ObjectHideFlags: 0
@@ -32666,6 +32943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &805077036
 GameObject:
   m_ObjectHideFlags: 0
@@ -33099,7 +33377,7 @@ Transform:
   - {fileID: 1411211092}
   - {fileID: 217999410}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &817056257
 GameObject:
@@ -34314,81 +34592,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5919396264613246822, guid: bda7da24542c025428e2aa9f181034b7, type: 3}
   m_PrefabInstance: {fileID: 1311930682}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &866307704
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 866307705}
-  - component: {fileID: 866307707}
-  - component: {fileID: 866307706}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &866307705
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866307704}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 963075488}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 3, y: 3}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &866307706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866307704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &866307707
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866307704}
-  m_CullTransparentMesh: 1
 --- !u!1001 &873567667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34470,6 +34673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &874473031
 GameObject:
   m_ObjectHideFlags: 0
@@ -34733,6 +34937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &878746701
 GameObject:
   m_ObjectHideFlags: 0
@@ -35386,6 +35591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &895102571
 GameObject:
   m_ObjectHideFlags: 0
@@ -35517,6 +35723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &897921243
 GameObject:
   m_ObjectHideFlags: 0
@@ -35999,6 +36206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &917481860
 GameObject:
   m_ObjectHideFlags: 0
@@ -36351,6 +36559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &924560506
 GameObject:
   m_ObjectHideFlags: 0
@@ -37519,106 +37728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
---- !u!1 &963075484
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 963075488}
-  - component: {fileID: 963075487}
-  - component: {fileID: 963075486}
-  - component: {fileID: 963075485}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &963075485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963075484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &963075486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963075484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &963075487
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963075484}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &963075488
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963075484}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 866307705}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  lightOfTree: 0
 --- !u!1001 &964314402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38014,6 +38124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &976993701
 GameObject:
   m_ObjectHideFlags: 0
@@ -38403,6 +38514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &988491379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38486,6 +38598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &988528856
 GameObject:
   m_ObjectHideFlags: 0
@@ -39415,6 +39528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1008193948
 GameObject:
   m_ObjectHideFlags: 0
@@ -39508,6 +39622,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1009845474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 866307704, guid: 5a1b030e220ea054798322246b37bfb0, type: 3}
+  m_PrefabInstance: {fileID: 45139747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1010603344
 GameObject:
   m_ObjectHideFlags: 0
@@ -39640,6 +39759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1011947921
 GameObject:
   m_ObjectHideFlags: 0
@@ -39899,6 +40019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1017180005
 GameObject:
   m_ObjectHideFlags: 0
@@ -41001,6 +41122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1039774677
 GameObject:
   m_ObjectHideFlags: 0
@@ -42095,7 +42217,7 @@ Transform:
   - {fileID: 474116059}
   - {fileID: 7368854245863671436}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1061064369
 GameObject:
@@ -42330,7 +42452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_TagString
@@ -42338,7 +42460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42565,6 +42687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1072638638
 GameObject:
   m_ObjectHideFlags: 0
@@ -44029,6 +44152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1114994134
 GameObject:
   m_ObjectHideFlags: 0
@@ -45423,6 +45547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1153542975
 GameObject:
   m_ObjectHideFlags: 0
@@ -45908,6 +46033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1165303578
 GameObject:
   m_ObjectHideFlags: 0
@@ -46208,7 +46334,7 @@ Transform:
   - {fileID: 1149317973}
   - {fileID: 7078015701373883025}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1177616974
 GameObject:
@@ -46381,6 +46507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1181822356
 GameObject:
   m_ObjectHideFlags: 0
@@ -46645,6 +46772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1191369255
 GameObject:
   m_ObjectHideFlags: 0
@@ -47370,6 +47498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1207422101
 GameObject:
   m_ObjectHideFlags: 0
@@ -47605,6 +47734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1209219898
 GameObject:
   m_ObjectHideFlags: 0
@@ -47957,6 +48087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1219242346
 GameObject:
   m_ObjectHideFlags: 0
@@ -48128,6 +48259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1224914633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49811,6 +49943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1280520943
 GameObject:
   m_ObjectHideFlags: 0
@@ -50207,6 +50340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1298773716
 GameObject:
   m_ObjectHideFlags: 0
@@ -50843,6 +50977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1318827738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50930,6 +51065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1320975427
 GameObject:
   m_ObjectHideFlags: 0
@@ -51192,6 +51328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1324954938
 GameObject:
   m_ObjectHideFlags: 0
@@ -51457,6 +51594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1329399427
 GameObject:
   m_ObjectHideFlags: 0
@@ -53026,6 +53164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1372819471
 GameObject:
   m_ObjectHideFlags: 0
@@ -53472,6 +53611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1380752860
 GameObject:
   m_ObjectHideFlags: 0
@@ -54408,6 +54548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1409473685
 GameObject:
   m_ObjectHideFlags: 0
@@ -56955,7 +57096,7 @@ Transform:
   - {fileID: 1583583206}
   - {fileID: 1193516572}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1473775994
 GameObject:
@@ -57567,6 +57708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1489748627
 GameObject:
   m_ObjectHideFlags: 0
@@ -57826,6 +57968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1501135174
 GameObject:
   m_ObjectHideFlags: 0
@@ -58132,6 +58275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1503859571
 GameObject:
   m_ObjectHideFlags: 0
@@ -58259,6 +58403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1505350429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58340,6 +58485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1505770595
 GameObject:
   m_ObjectHideFlags: 0
@@ -58511,6 +58657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1511070148
 GameObject:
   m_ObjectHideFlags: 0
@@ -58636,6 +58783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1517942716
 GameObject:
   m_ObjectHideFlags: 0
@@ -59344,6 +59492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1529629814
 GameObject:
   m_ObjectHideFlags: 0
@@ -60529,6 +60678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1570638923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60616,6 +60766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1572209851
 GameObject:
   m_ObjectHideFlags: 0
@@ -61386,6 +61537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!4 &1593028582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
@@ -61962,6 +62114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1611747896
 GameObject:
   m_ObjectHideFlags: 0
@@ -63424,6 +63577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1656051129
 GameObject:
   m_ObjectHideFlags: 0
@@ -63790,6 +63944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1659400319
 GameObject:
   m_ObjectHideFlags: 0
@@ -64521,6 +64676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1671445680
 GameObject:
   m_ObjectHideFlags: 0
@@ -65044,6 +65200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1685488699
 GameObject:
   m_ObjectHideFlags: 0
@@ -66128,6 +66285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1715603047
 GameObject:
   m_ObjectHideFlags: 0
@@ -67106,6 +67264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1746935438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67193,6 +67352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1748016846
 GameObject:
   m_ObjectHideFlags: 0
@@ -68444,6 +68604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1783864781
 GameObject:
   m_ObjectHideFlags: 0
@@ -68858,6 +69019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1792019751
 GameObject:
   m_ObjectHideFlags: 0
@@ -69083,6 +69245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1800667814
 GameObject:
   m_ObjectHideFlags: 0
@@ -69206,7 +69369,7 @@ Transform:
   - {fileID: 1247954057}
   - {fileID: 928617892}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1804432688
 GameObject:
@@ -69597,6 +69760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1815226837
 GameObject:
   m_ObjectHideFlags: 0
@@ -70236,6 +70400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1832129776
 GameObject:
   m_ObjectHideFlags: 0
@@ -71074,6 +71239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1849345028
 GameObject:
   m_ObjectHideFlags: 0
@@ -72384,6 +72550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1893598149
 GameObject:
   m_ObjectHideFlags: 0
@@ -72515,6 +72682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1895135920
 GameObject:
   m_ObjectHideFlags: 0
@@ -72690,6 +72858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1904267929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72777,6 +72946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1904636494
 GameObject:
   m_ObjectHideFlags: 0
@@ -72904,6 +73074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1906535216
 GameObject:
   m_ObjectHideFlags: 0
@@ -73418,6 +73589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1920796109
 GameObject:
   m_ObjectHideFlags: 0
@@ -74259,6 +74431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1953349746
 GameObject:
   m_ObjectHideFlags: 0
@@ -74829,6 +75002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1971310821
 GameObject:
   m_ObjectHideFlags: 0
@@ -74960,6 +75134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1973344395
 GameObject:
   m_ObjectHideFlags: 0
@@ -75091,6 +75266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1001 &1973968996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75173,6 +75349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1976318499
 GameObject:
   m_ObjectHideFlags: 0
@@ -75415,6 +75592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1986392878
 GameObject:
   m_ObjectHideFlags: 0
@@ -75635,6 +75813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!4 &1991299299 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
@@ -75859,6 +76038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1994253595
 GameObject:
   m_ObjectHideFlags: 0
@@ -76120,6 +76300,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &1997055029
 GameObject:
   m_ObjectHideFlags: 0
@@ -76377,6 +76558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2001352883
 GameObject:
   m_ObjectHideFlags: 0
@@ -76593,6 +76775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2003574697
 GameObject:
   m_ObjectHideFlags: 0
@@ -78089,6 +78272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2039997244
 GameObject:
   m_ObjectHideFlags: 0
@@ -78214,6 +78398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2042046237
 GameObject:
   m_ObjectHideFlags: 0
@@ -79338,6 +79523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2076395237
 GameObject:
   m_ObjectHideFlags: 0
@@ -79867,6 +80053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2103143275
 GameObject:
   m_ObjectHideFlags: 0
@@ -80780,6 +80967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2120074466
 GameObject:
   m_ObjectHideFlags: 0
@@ -80952,6 +81140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2125155828
 GameObject:
   m_ObjectHideFlags: 0
@@ -81565,6 +81754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globalLight: {fileID: 705507993}
   health: 100
+  lightOfTree: 0
 --- !u!1 &2140854749
 GameObject:
   m_ObjectHideFlags: 0

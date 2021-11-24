@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1287295899898638, guid: 9ec060093457ad84ca2733cb15c2c41e, type: 3}
       propertyPath: m_Name
-      value: CowBlW
+      value: CowBlW Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1287295899898638, guid: 9ec060093457ad84ca2733cb15c2c41e, type: 3}
       propertyPath: m_TagString
@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8306357757749808508, guid: 9ec060093457ad84ca2733cb15c2c41e, type: 3}
+      propertyPath: bread
+      value: 
+      objectReference: {fileID: 5720897952926400997, guid: 3a6e0be960b73874e80053182d99f8e3, type: 3}
     - target: {fileID: 8306357757749808508, guid: 9ec060093457ad84ca2733cb15c2c41e, type: 3}
       propertyPath: player
       value: 

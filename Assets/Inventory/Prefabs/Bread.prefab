@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6035626237668161499}
   - component: {fileID: -7837814909505201459}
   - component: {fileID: -1053660621684580232}
+  - component: {fileID: -7763960009034861078}
   m_Layer: 0
   m_Name: Bread
   m_TagString: Untagged
@@ -201,3 +202,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Title: Bread
   m_Instruction: Pickup
+--- !u!65 &-7763960009034861078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720897952926400997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41066438, y: 0.15789363, z: 0.26036042}
+  m_Center: {x: 0, y: 0, z: 0}

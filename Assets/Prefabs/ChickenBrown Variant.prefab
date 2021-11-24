@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1206511787925574, guid: 3b1e3e9155d404942bc65d9aa80120ba, type: 3}
       propertyPath: m_Name
-      value: ChickenBrown
+      value: ChickenBrown Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1206511787925574, guid: 3b1e3e9155d404942bc65d9aa80120ba, type: 3}
       propertyPath: m_TagString
@@ -67,6 +67,10 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1406087410683622160, guid: 3b1e3e9155d404942bc65d9aa80120ba, type: 3}
+      propertyPath: bread
+      value: 
+      objectReference: {fileID: 5720897952926400997, guid: 3a6e0be960b73874e80053182d99f8e3, type: 3}
     - target: {fileID: 1406087410683622160, guid: 3b1e3e9155d404942bc65d9aa80120ba, type: 3}
       propertyPath: player
       value: 

@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -124,15 +124,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasWalked: 0
-  hasRan: 0
+  hasRolled: 0
   hasJumped: 0
   wasNearWater: 0
   hitTree: 0
   hasOpenedInv: 0
   hasFought: 0
   hasEaten: 0
-  hasDrank: 0
-  hasCompletedTut: 0
   nextObjective: {fileID: 5646973572426537617}
   alternativeObjective: {fileID: 5646973574021433542}
   player: {fileID: 0}
@@ -295,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
