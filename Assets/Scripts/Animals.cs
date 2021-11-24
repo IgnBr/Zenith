@@ -7,6 +7,12 @@ public class Animals : MonoBehaviour
 
     public GameObject player;
     public float EnemyDistanceRun = 6f;
+    public int health = 100;
+
+    public float decideTimer = 3f;
+    public float decideTimerMin = 3f;
+    public float decideTimerMax = 15f;
+    public float randomUnityCircleRadius = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +24,7 @@ public class Animals : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(transform.position, player.transform.position);
+        decideTimer -= Time.deltaTime;
 
         if (distance < EnemyDistanceRun)
         {
@@ -25,5 +32,23 @@ public class Animals : MonoBehaviour
             Vector3 newPos = transform.position + dirToPlayer;
             _agent.SetDestination(newPos);
         }
+
+        else if (decideTimer <= 0)
+        {
+            Vector3 newPosition = transform.position + new Vector3(Random.insideUnitCircle.x * randomUnityCircleRadius, 0, Random.insideUnitCircle.y * randomUnityCircleRadius);
+            _agent.SetDestination(newPosition);
+
+            decideTimer = Random.Range(decideTimerMin, decideTimerMax);
+        }
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public void AttackMob(int damage)
+    {
+        health -= damage;
     }
 }
