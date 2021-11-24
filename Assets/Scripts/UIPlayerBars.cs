@@ -25,6 +25,8 @@ public class UIPlayerBars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = FindObjectOfType<Player>();
+
         healthRect = healthBarInner.GetComponent<RectTransform>();
         hungerRect = hungerBarInner.GetComponent<RectTransform>();
         thirstRect = thirstBarInner.GetComponent<RectTransform>();

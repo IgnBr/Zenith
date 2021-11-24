@@ -16,7 +16,8 @@ public class PauseManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        pauseMenu.gameObject.SetActive(false);
+        controller = FindObjectOfType<FirstPersonController>();
     }
 
     // Update is called once per frame
