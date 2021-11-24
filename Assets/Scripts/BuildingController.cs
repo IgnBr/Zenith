@@ -12,6 +12,7 @@ public class BuildingController : MonoBehaviour
     private GameObject crosshair;
 
     private GameObject currentPlaceableObject;
+    private float mouseWheelRotation;
 
     private void Update()
     {
@@ -20,8 +21,15 @@ public class BuildingController : MonoBehaviour
         if (currentPlaceableObject != null)
         {
             MoveCurrentPlaceableObjectToCrosshair();
+            RotateFromMouseWheel();
             ReleaseIfClicked();
         }
+    }
+
+    private void RotateFromMouseWheel()
+    {
+        mouseWheelRotation += Input.mouseScrollDelta.y;
+        currentPlaceableObject.transform.Rotate(Vector3.up, mouseWheelRotation * 2f);
     }
 
     private void ReleaseIfClicked()
@@ -41,6 +49,7 @@ public class BuildingController : MonoBehaviour
         if (Physics.Raycast(ray, out hitInfo))
         {
             currentPlaceableObject.transform.position = hitInfo.point;
+            currentPlaceableObject.transform.rotation = Quaternion.FromToRotation(Vector3.up, hitInfo.normal);
         }
     }
 
