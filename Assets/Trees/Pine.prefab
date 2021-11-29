@@ -1,0 +1,545 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3527757266740303345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4914184131300850820}
+  - component: {fileID: 6470975494974926763}
+  - component: {fileID: 6022485628993068220}
+  m_Layer: 0
+  m_Name: Selection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
+--- !u!4 &4914184131300850820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527757266740303345}
+  m_LocalRotation: {x: 0.2903297, y: 0.64475477, z: -0.64475477, w: 0.2903297}
+  m_LocalPosition: {x: 0, y: -0.1506324, z: 0}
+  m_LocalScale: {x: 1.785713, y: 1.785715, z: 1.785716}
+  m_Children: []
+  m_Father: {fileID: 7225326140724326856}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!33 &6470975494974926763
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527757266740303345}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6022485628993068220
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527757266740303345}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 65638a204fcdcb54f8f75cb7ab47a887, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4892291349140772505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8824444922951126779}
+  - component: {fileID: 2902705156543731003}
+  m_Layer: 2
+  m_Name: TriggerRangeHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8824444922951126779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892291349140772505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7225326140724326856}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2902705156543731003
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892291349140772505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.678568
+  m_Center: {x: -0.047565106, y: 0.34474608, z: 1.9683156}
+--- !u!1 &4955863909123809421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7225326140724326856}
+  - component: {fileID: 1501012617136696649}
+  - component: {fileID: 2131385265844793539}
+  - component: {fileID: 8168284835548026323}
+  - component: {fileID: 7467155133550551719}
+  - component: {fileID: 117137091944467826}
+  - component: {fileID: 8868024921147585921}
+  - component: {fileID: 7057291823704792451}
+  - component: {fileID: 6094939707250356911}
+  - component: {fileID: 8055471533919004778}
+  m_Layer: 0
+  m_Name: Pine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7225326140724326856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_LocalRotation: {x: -0.041435607, y: -0.9438648, z: 0.13000374, w: -0.30083457}
+  m_LocalPosition: {x: 855.81, y: 59.04, z: 688.56}
+  m_LocalScale: {x: 0.5600004, y: 0.56, z: 0.5600004}
+  m_Children:
+  - {fileID: 4914184131300850820}
+  - {fileID: 8824444922951126779}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 15.685, y: -215.357, z: 0}
+--- !u!33 &1501012617136696649
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2131385265844793539
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e6facfc95c06d3f429f9d765ea286693, type: 3}
+  - {fileID: 2100002, guid: e6facfc95c06d3f429f9d765ea286693, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 24
+    subMeshCount: 2
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 0
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &8168284835548026323
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.29812768
+  m_Height: 15.2
+  m_Direction: 1
+  m_Center: {x: -0.04754574, y: 7.4, z: -0.0127943475}
+--- !u!114 &7467155133550551719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aee479a81ddf78248a87eb09e719d8d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 21300000, guid: 81e9ec1d21e1f8f43a06e7e75c17fc37, type: 3}
+  m_Size: {x: 32, y: 32}
+  m_AnimatorState: Cursor
+--- !u!114 &117137091944467826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff8949b55037043a6183d61fd8dcff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Title: Pine
+  m_Instruction: Chop
+--- !u!114 &8868024921147585921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e2a0650d79394740b1bdb39be00be6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delegates:
+  - eventID: OnTriggerUsed
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3527757266740303345}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - eventID: OnTriggerUnUsed
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3527757266740303345}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  useDistance: 1.5
+  triggerType: 43
+  key: 102
+  actionTemplate: {fileID: 0}
+  actions:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7
+  - id: 8
+  - id: 9
+  - id: 10
+  - id: 11
+  - id: 12
+  - id: 13
+  m_Interruptable: 1
+  references:
+    version: 1
+    00000000:
+      type: {class: HasItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.HasItem
+        m_Enabled: 1
+        requiredItems:
+        - item: {fileID: -4474190543486091594, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+          category: {fileID: 0}
+          boolValue: 0
+          stringValue: Tools
+          intValue: 0
+    00000001:
+      type: {class: RemoveVisualItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.RemoveVisualItem
+        m_Enabled: 1
+        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+    00000002:
+      type: {class: AddVisualItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.AddVisualItem
+        m_Enabled: 1
+        m_Item: {fileID: -4474190543486091594, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+    00000003:
+      type: {class: SetEnabled, ns: DevionGames, asm: DevionGames.Triggers}
+      data:
+        m_Type: DevionGames.SetEnabled
+        m_Enabled: 1
+        m_Target: 1
+        m_ComponentName: ThirdPersonController
+        m_Enable: 0
+    00000004:
+      type: {class: LookAtTrigger, ns: DevionGames, asm: DevionGames.Triggers}
+      data:
+        m_Type: DevionGames.LookAtTrigger
+        m_Enabled: 1
+        m_Speed: 15
+    00000005:
+      type: {class: CrossFade, ns: DevionGames, asm: DevionGames.Triggers}
+      data:
+        m_Type: DevionGames.CrossFade
+        m_Enabled: 1
+        m_Target: 1
+        m_AnimatorState: Cut
+        m_TransitionDuration: 0.2
+    00000006:
+      type: {class: ShowProgressbar, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.ShowProgressbar
+        m_Enabled: 1
+        m_WidgetName: General Progressbar
+        m_Title: Cutting Tree
+        m_Duration: 6
+    00000007:
+      type: {class: SetEnabled, ns: DevionGames, asm: DevionGames.Triggers}
+      data:
+        m_Type: DevionGames.SetEnabled
+        m_Enabled: 1
+        m_Target: 1
+        m_ComponentName: ThirdPersonController
+        m_Enable: 1
+    00000008:
+      type: {class: RemoveVisualItem, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.RemoveVisualItem
+        m_Enabled: 1
+        m_Region: {fileID: 316844889573954113, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+    00000009:
+      type: {class: UpdateEquipment, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.UpdateEquipment
+        m_Enabled: 1
+    0000000A:
+      type: {class: CheckSkill, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.CheckSkill
+        m_Enabled: 1
+        m_Skill: {fileID: 6305893422732665131, guid: e1f045c49e197e3439b99da9edbc5ba3, type: 2}
+        m_SuccessNotification:
+          title: 
+          text: 
+          color: {r: 1, g: 1, b: 1, a: 1}
+          icon: {fileID: 0}
+          delay: 2
+          duration: 2
+          ignoreTimeScale: 1
+        m_FailureNotification:
+          title: 
+          text: 
+          color: {r: 1, g: 1, b: 1, a: 1}
+          icon: {fileID: 0}
+          delay: 2
+          duration: 2
+          ignoreTimeScale: 1
+    0000000B:
+      type: {class: Pickup, ns: DevionGames.InventorySystem, asm: DevionGames.InventorySystem}
+      data:
+        m_Type: DevionGames.InventorySystem.Pickup
+        m_Enabled: 1
+        m_WindowName: 
+        m_DestroyWhenEmpty: 0
+        m_Amount: 1
+    0000000C:
+      type: {class: Invoke, ns: DevionGames, asm: DevionGames.Triggers}
+      data:
+        m_Type: DevionGames.Invoke
+        m_Enabled: 1
+        m_Target: 1
+        m_ComponentName: StatsHandler
+        m_MethodName: ApplyDamage
+        m_Arguments:
+        - m_BoolValue: 0
+          m_IntValue: 0
+          m_FloatValue: 0
+          m_StringValue: Exp
+          m_Vector2Value: {x: 0, y: 0}
+          m_Vector3Value: {x: 0, y: 0, z: 0}
+          m_ColorValue: {r: 0, g: 0, b: 0, a: 0}
+          m_ObjectValue: {fileID: 0}
+          m_ArgumentType: 4
+        - m_BoolValue: 0
+          m_IntValue: 0
+          m_FloatValue: -300
+          m_StringValue: 
+          m_Vector2Value: {x: 0, y: 0}
+          m_Vector3Value: {x: 0, y: 0, z: 0}
+          m_ColorValue: {r: 0, g: 0, b: 0, a: 0}
+          m_ObjectValue: {fileID: 0}
+          m_ArgumentType: 3
+    0000000D:
+      type: {class: Instantiate, ns: DevionGames, asm: DevionGames.Triggers}
+      data:
+        m_Type: DevionGames.Instantiate
+        m_Enabled: 1
+        m_Target: 0
+        m_Original: {fileID: 5089913065857802077, guid: 6bf46658136834f4da3d0726d48e1c0d, type: 3}
+        m_BoneName: 
+        m_Offset: {x: 0, y: 1, z: 0}
+        m_IgnorePlayerCollision: 1
+--- !u!114 &7057291823704792451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68165cdf1896c89479a91b2478670c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveable: 1
+  m_Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_Amounts: 01000000010000000100000002000000
+  m_Modifiers:
+  - modifiers: []
+  - modifiers: []
+  - modifiers: []
+  - modifiers: []
+  - modifiers: []
+  - modifiers: []
+  onChange:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6094939707250356911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847e07ad88c6e1f42a0b976f2611b006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ItemGeneratorData:
+  - item: {fileID: -5663772737389988193, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+    minStack: 3
+    maxStack: 3
+    chance: 0.5
+    modifiers:
+      modifiers: []
+  - item: {fileID: -5663772737389988193, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+    minStack: 1
+    maxStack: 2
+    chance: 0.7
+    modifiers:
+      modifiers: []
+  - item: {fileID: -5663772737389988193, guid: 1ae57b994efcab048a1bb130d4e11d83, type: 2}
+    minStack: 1
+    maxStack: 1
+    chance: 0.9
+    modifiers:
+      modifiers: []
+  m_MaxAmount: 3
+  m_Refill: 120
+--- !u!54 &8055471533919004778
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955863909123809421}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

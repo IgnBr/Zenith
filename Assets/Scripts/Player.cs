@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            if(Physics.Raycast(ray, out hitInfo, hitRange))
+            if (Physics.Raycast(ray, out hitInfo, hitRange))
             {
                 if (hitInfo.collider.tag == "Enemy")
                 {
@@ -59,13 +59,13 @@ public class Player : MonoBehaviour
             thirst += thirstIncreaseRate * Time.deltaTime;
         }
 
-        if(hunger < maxHunger)
+        if (hunger < maxHunger)
         {
             hunger += hungerIncreaserate * Time.deltaTime;
         }
 
 
-        if (health<=0 ||thirst >= maxThirst || hunger >= maxHunger)
+        if (health <= 0 || thirst >= maxThirst || hunger >= maxHunger)
         {
             Die();
         }
@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
     {
         transform.position = new Vector3(450, 120, 549);
         health = 100;
+        hunger = 0;
     }
 
     public void AttackPlayer(float damage)
